@@ -1,0 +1,3 @@
+# Placeholder for scene composition prompts
+# Example:
+# Scene: A sunny park with children playing

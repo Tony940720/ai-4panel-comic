@@ -1,0 +1,4 @@
+# Placeholder for character profiles and dialogue tones
+# Example:
+# Character: John
+# Tone: Sarcastic

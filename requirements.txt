@@ -1,0 +1,9 @@
+transformers
+torch
+diffusers
+opencv-python
+Pillow
+gradio
+requests
+pyyaml
+newspaper3k

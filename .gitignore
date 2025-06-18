@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+
+# Output folders
+assets/output/
+assets/temp/
+
+# Config files
+config/config.yaml
