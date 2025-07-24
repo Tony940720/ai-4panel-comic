@@ -7,3 +7,4 @@ gradio
 requests
 pyyaml
 newspaper3k
+google-genai

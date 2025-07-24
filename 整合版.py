@@ -2,9 +2,11 @@ import json
 from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 import google.generativeai as genai
+import os
 
 # 設定 Gemini 圖片模型 API 金鑰
-genai.configure(api_key="AIzaSyDkrPZHbSyw6BLRXYiGRumRipboPD3e1F4")
+# genai.configure(api_key="AIzaSyDkrPZHbSyw6BLRXYiGRumRipboPD3e1F4")
+genai.configure = api_key=os.getenv('GEMINI_API_KEY')
 model = genai.GenerativeModel("gemini-2.0-flash-preview-image-generation")
 
 # 換行工具函式
