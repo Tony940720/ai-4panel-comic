@@ -11,6 +11,15 @@ venv/
 # Output folders
 assets/output/
 assets/temp/
+outputs/
+comic_output_*/
+analysis_output_*/
+ocr_result.png
+
+# Generated files
+*.png
+!complete_4panel_comic_1.png
+!NotoSansTC-Regular.ttf
 
 # Config files
 config/config.yaml

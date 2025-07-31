@@ -153,8 +153,11 @@ Each panel should visually represent the corresponding part of the story descrip
     
     # 創建輸出資料夾
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    folder_name = f"comic_output_{timestamp}"
+    main_output_dir = "outputs"
+    folder_name = os.path.join(main_output_dir, f"comic_generation_{timestamp}")
     
+    if not os.path.exists(main_output_dir):
+        os.makedirs(main_output_dir)
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
     
